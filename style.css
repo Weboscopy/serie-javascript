@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    font-family: "Roboto" ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+
+div{
+    width: 70vw;
+    height: 80vh;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6%;
+    font-size: 1.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+form{
+    height: 90%;
+    width: 95%;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+button{
+    padding: 1.1rem 2.7rem;
+    border-radius: 15px;
+    border: 1px solid darkcyan;
+    cursor: pointer;
+    font-size: .7rem;
+    transition: all .2s ease-in-out;
+}
+
+button:hover{
+    background-color: darkcyan;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
